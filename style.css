@@ -8,6 +8,9 @@ body {
 h1 {
     font-size: 40px;
 }
+h2 {
+    font-size: 30px;
+}
 p {
     color: #7d7d7d;
     margin-bottom: 10px;
@@ -17,7 +20,7 @@ p {
     color: orange;
 }
 
-section {
+.flexiable-container {
     display: flex;
     margin-bottom: 100px;
 }
@@ -52,4 +55,45 @@ section {
     background-repeat: no-repeat;
     background-position: right;
     
+}
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.box-2 {
+    margin-left: 4%;
+    margin-right: 4%;
+    width: 40%;
+    padding: 3%;
+    box-shadow: 10px 10px 40px gray;
+    
+}
+
+.box-2 p {
+    text-align: justify;
+}
+
+.exp-cntr {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+#senior-dev {
+    border-left: 8px solid;
+    border-image: linear-gradient(to left bottom, #370505, #631615, #912c1c, #bf471c, #eb6712);
+    border-image-slice: 1;
+}
+
+#baby-dev {
+
+    border-left: 8px solid;
+    border-image:linear-gradient(to left bottom, #211ba6, #433da7, #5d5aa5, #7776a1, #919199);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
+    color: #7d7d7d;
 }
